@@ -10,15 +10,15 @@ Rails.application.routes.draw do
 
   get '/foods', to: 'foods#index'
   get '/foods/:id', to: 'foods#show'
-  post '/foods', toL 'foods#create'
+  post '/foods', to: 'foods#create'
 
   get '/recipes', to: 'recipes#index'
   get '/recipes/:id', to: 'recipes#show'
   post '/recipes', to: 'recipes#create'
 
   get '/ingredients', to: 'ingredients#index'
-  get '/ingredients/:id'
-  post '/ingredients', to: 'ingredients#'
+  get '/ingredients/:id', to: 'ingredients#show'
+  post '/ingredients', to: 'ingredients#create'
 
 
 
