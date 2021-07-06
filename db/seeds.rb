@@ -9,4 +9,6 @@
 
 User.destroy_all
 
-User.create(name:"Gabe", password: "abc123")
+User.create(username:"Gabe", password: "abc123")
+
+puts "Nice seeds, bro"
